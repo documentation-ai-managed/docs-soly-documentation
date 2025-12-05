@@ -1,0 +1,68 @@
+{
+  "name": "Soly Documentation",
+  "initialRoute": "introduction",
+  "primaryColor": "#141414",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "icon": "book",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "icon": "rocket",
+            "pages": [
+              {
+                "title": "Introduction",
+                "path": "introduction",
+                "icon": "star"
+              }
+            ]
+          },
+          {
+            "group": "Core Concepts",
+            "icon": "lightbulb",
+            "pages": [
+              {
+                "title": "Partnerships",
+                "path": "partnerships",
+                "icon": "users"
+              },
+              {
+                "title": "Startups",
+                "path": "startups",
+                "icon": "rocket"
+              },
+              {
+                "title": "Portfolio",
+                "path": "portfolio",
+                "icon": "folder"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "icon": "code",
+        "groups": [
+          {
+            "group": "Endpoints",
+            "openapi": "openapi.yaml"
+          }
+        ]
+      },
+      {
+        "tab": "Changelog",
+        "icon": "clock",
+        "pages": [
+          {
+            "title": "Release History",
+            "path": "changelog",
+            "icon": "history"
+          }
+        ]
+      }
+    ]
+  }
+}
